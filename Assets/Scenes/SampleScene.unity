@@ -350,7 +350,7 @@ GameObject:
   - component: {fileID: 1550126911}
   - component: {fileID: 1550126910}
   - component: {fileID: 1550126909}
-  - component: {fileID: 1550126907}
+  - component: {fileID: 1550126912}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -358,19 +358,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1550126907
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1550126906}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3bcad9c0117a2f643a38b22685f594d5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  storeName: AnonymousStore
 --- !u!23 &1550126909
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -439,6 +426,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1550126912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1550126906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bcad9c0117a2f643a38b22685f594d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  storeName: AnonymousTardigrade
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
