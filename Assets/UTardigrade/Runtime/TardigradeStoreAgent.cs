@@ -12,6 +12,8 @@ namespace UTardigrade.Runtime
     
         [SerializeField] public string storeName = "AnonymousTardigrade";
 
+        [SerializeField] public TardigradeStoreFieldInitialConfig[] initialFields;
+
         public string Id => _id;
         public Store Store => _store;
 
