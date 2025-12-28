@@ -438,7 +438,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3bcad9c0117a2f643a38b22685f594d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  storeName: AnonymousTardigrade
+  storeName: TestMetrics
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

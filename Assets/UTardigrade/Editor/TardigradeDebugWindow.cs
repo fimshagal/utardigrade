@@ -1,5 +1,3 @@
-using System;
-using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 using UTardigrade.Runtime;
@@ -10,11 +8,11 @@ namespace UTardigrade.Editor
     {
         private Vector2 _scroll;
 
-        [MenuItem("Window/Tardigrade/Debugger")]
+        [MenuItem("Window/Tardigrade/Inspector")]
         
         public static void Open()
         {
-            GetWindow<TardigradeDebugWindow>("Tardigrade Debugger");
+            GetWindow<TardigradeDebugWindow>("Tardigrade");
         }
 
         private void OnEditorUpdate()
@@ -41,7 +39,7 @@ namespace UTardigrade.Editor
 
             if (storeAgents == null || storeAgents.Count == 0)
             {
-                EditorGUILayout.HelpBox("No stores registered or runtime isn't running. Add \"TardigradeStoreAgent\" components to GameObjects and check it in runtime", MessageType.Info);
+                EditorGUILayout.HelpBox("No stores registered. Add \"TardigradeStoreAgent\" components to GameObjects", MessageType.Info);
                 return;
             }
 

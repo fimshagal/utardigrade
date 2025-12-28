@@ -5,6 +5,7 @@ using TardigradeStore;
 namespace UTardigrade.Runtime
 {
     [DisallowMultipleComponent]
+    [ExecuteAlways]
     public class TardigradeStoreAgent : MonoBehaviour
     {
         [Tooltip("Tardigrade Store Agent")] 
